@@ -104,7 +104,7 @@
 			width: 100%;
 			height: 50px;
 			position: relative;
-			z-index: 99999 !important;
+			z-index: 99999;
 		}
 
 @media screen and (max-width: 720px) {
@@ -124,7 +124,7 @@
 		top: -10em;
 	}
 }
-		
+
 @media screen and (min-width: 325px){
 	#logo_header{
 		width:200px;
@@ -143,6 +143,7 @@
 	}
 }
 
+
 	</style>
 
 	</head>
@@ -156,10 +157,10 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
+				<div class="col-sm-8 col-sm-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<img src="images/Logotype_white.png" width="500px">
+							<img src="images/Logotype_white.png" id="logo_header">
 							<h2>We Are Opening Soon!</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
 						</div>
@@ -296,7 +297,7 @@
 
 //slideshow for images
 var imagesLeft = [
-"Front.jpeg",
+"front.jpeg",
 "inside2.jpeg",
 "inside1.jpeg"
 ]
